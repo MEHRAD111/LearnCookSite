@@ -1,2 +1,2 @@
 # LearnCookSite
-A Persian WebSite To Learn Cokk Bette!
+A Persian WebSite To Learn Cook Better!
