@@ -1,0 +1,19 @@
+{
+  "name": "learncooksite",
+  "version": "1.0.0",
+  "description": "A website to learn cook",
+  "keywords": [
+    "css",
+    "js",
+    "json",
+    "html",
+    "website"
+  ],
+  "license": "MIT",
+  "author": "Mehrad Kuhpayeh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cursor ."
+  }
+}

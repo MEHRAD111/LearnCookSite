@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>آشپزی</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/img/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <img
+            class="tonqueimg"
+            src="/img/favicon.svg"
+            alt="Toque"
+            width="40"
+          />
+          <h1 class="nameSite">آشپزی</h1>
+        </div>
+
+        <nav>
+          <a href="#">خانه</a>
+          <a href="#">دستورها</a>
+          <a href="#">انواع</a>
+          <a href="#">درباره</a>
+        </nav>
+
+        <div class="icons">
+          <img src="/img/Account.svg" alt="Account" width="30px" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-content">
+        <h1>
+          آشپزی رو ساده و <span class="text-color">لذت بخش</span> یاد بگیر!
+        </h1>
+        <p>
+          هزاران دستور آشپزی متنوع و آسان با مواد اولیه در دسترس برای هر سلیقه و
+          هر زمان
+        </p>
+
+        <input type="text" placeholder="دنبال چی می گردی؟" class="input" />
+        <a href="#">
+          <button class="btn-show-guide" onclick="runThis()">
+            مشاهده دستور ها >
+          </button>
+        </a>
+        <p class="ErrorForSearch"></p>
+      </div>
+      <div class="features">
+        <img src="/img/book-svgrepo-com.svg" alt="Book" class="imgFeatures" />
+        <h3 class="text-feature">دستور های متنوع</h3>
+        <img
+          src="/img/pan-pot-cook-kitchen-utensil-svgrepo-com.svg"
+          alt="Pan"
+          class="imgFeatures"
+        />
+        <h3 class="text-feature">آموزش قدم به قدم</h3>
+        <img
+          src="/img/basket-svgrepo-com.svg"
+          alt="Basket"
+          class="imgFeatures"
+        />
+        <h3 class="text-feature">مواد اولیه در دسترس</h3>
+        <img src="/img/video-svgrepo-com.svg" alt="Video" class="imgFeatures" />
+        <h3 class="text-feature" class="text-feature">ویدیو های اموزشی</h3>
+      </div>
+      <div class="borderForAll">
+        <h1 style="text-align: center" class="textAll">دستور های محبوب</h1>
+        <div class="bestGuides">
+          <a href="#">
+            <div class="ghorme">
+              <h1>قرمه سبزی</h1>
+              <img
+                class="foods"
+                src="/img/ghorme-sabzi.jpeg"
+                alt="Ghorme Sabzi"
+              />
+              <h4>اسان-120دقیقه</h4>
+            </div>
+          </a>
+          <a href="#">
+            <div class="sezar">
+              <h1>سالاد سزار</h1>
+              <img class="foods" src="/img/sezar-salad" alt="Salad Sezar" />
+              <h4>اسان-30دقیقه</h4>
+            </div>
+          </a>
+        </div>
+        <h1 class="textAll">دسته بندی</h1>
+        <div class="model">
+          <a href="#">
+            <div>
+              <img src="img/breakfast-svgrepo-com.svg" alt="BreakFast" />
+              <p>صبحانه</p>
+            </div>
+          </a>
+
+          <a href="#">
+            <div>
+              <img src="img/dessert-svgrepo-com.svg" alt="Dessert" />
+              <p>دسر</p>
+            </div>
+          </a>
+
+          <a href="#">
+            <div>
+              <img src="img/drink-cocktail-svgrepo-com.svg" alt="Drink" />
+              <p>نوشیدنی</p>
+            </div>
+          </a>
+
+          <a href="#">
+            <div>
+              <img src="img/fast-food-svgrepo-com.svg" alt="FastFood" />
+              <p>فست فود</p>
+            </div>
+          </a>
+
+          <a href="#">
+            <div>
+              <img src="img/soup-svgrepo-com.svg" alt="Soup" />
+              <p>سوپ</p>
+            </div>
+          </a>
+
+          <a href="#">
+            <div>
+              <img
+                src="img/vegetables-salad-svgrepo-com.svg"
+                alt="Vegetables"
+              />
+              <p>گیاهی</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <h1>جدیدترین دستورهارا دریافت کنید!</h1>
+        <p>با عضویت در خبرنامه،همیشه به جدیدترین دستورها دسترسی داشته باشید!</p>
+        <div class="btnAndEmail">
+          <input type="email" placeholder="ایمیل شما" class="SUI" />
+          <button class="SUB" onclick="runThat()">ثبت نام</button>
+        </div>
+      </div>
+      <p class="EFSU"></p>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
